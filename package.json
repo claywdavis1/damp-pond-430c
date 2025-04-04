@@ -1,8 +1,8 @@
 {
-  "name": "damp-pond-430c",
-  "description": "Build a personal website, blog, or portfolio with Astro.",
+  "name": "public-impact-partners",
+  "description": "Website for PIP LLC.",
   "cloudflare": {
-    "label": "Astro Framework Starter",
+    "label": "My Astro based website",
     "products": [
       "Workers"
     ],
