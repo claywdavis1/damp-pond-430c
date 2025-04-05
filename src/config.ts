@@ -56,8 +56,10 @@ export const homePageContent: HomePageContent = {
     image: identity.logo,
   },
   role: "Homelessness and Continuum of Care Consulting",
-  description:
-    "We primarily provide technical assistance and consulting for organiztions working in homelessness. We provide governments, non-profits, and continuum's of care (COCs) with evidence based approaches to fight and end homelessness. Public Impact Partners also provides research and technical document creation.",
+  description: `
+We primarily provide technical assistance and consulting for organiztions working in homelessness. We provide governments, non-profits, and continuum's of care (COCs) with evidence based approaches to fight and end homelessness. 
+<br/><br/>
+Public Impact Partners also provides research and technical document creation.`,
   socialLinks: socialLinks,
   links: [
     {
@@ -79,7 +81,7 @@ export const aboutPageContent: AboutPageContent = {
   seo: {
     title: "About | Public Impact Partners",
     description:
-      "Full time student from Germany who loves building cool things using code.",
+      `Full time student from Germany who loves building cool things using code.`,
     image: identity.logo,
   },
   subtitle: "Some information about myself",
