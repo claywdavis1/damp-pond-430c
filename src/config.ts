@@ -10,7 +10,7 @@ import type {
 
 export const identity: Identity = {
   name: "Public Impact Partners",
-  logo: "/logo2.webp",
+  logo: "/logo-color.webp",
   email: "chelsey@publicimpactpartners.com",
 };
 
@@ -130,7 +130,7 @@ Facere quibusdam reiciendis, distinctio sunt praesentium error accusantium conse
 // Projects (/projects)
 export const projectsPageContent: ProjectPageContent = {
   seo: {
-    title: "Projects | Public Impact Partners",
+    title: "Services | Public Impact Partners",
     description: "Check out what I've been working on.",
     image: identity.logo,
   },
