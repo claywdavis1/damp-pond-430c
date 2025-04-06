@@ -35,15 +35,15 @@ export const navBarLinks: NavBarLink[] = [
 
 export const socialLinks: SocialLink[] = [
   {
-    title: "GitHub",
-    url: "https://github.com/TimWitzdam",
-    icon: "mdi:github",
-    external: true,
-  },
-  {
-    title: "Mail",
+    title: "Email",
     url: "mailto:chelsey@publicimpactpartners.com",
     icon: "mdi:email",
+  },
+  {
+    title: "LinkedIn",
+    url: "https://github.com/TimWitzdam",
+    icon: "mdi:linkedin",
+    external: true,
   },
 ];
 
@@ -55,11 +55,11 @@ export const homePageContent: HomePageContent = {
       "Full time student from Germany who loves building cool things using code.",
     image: identity.logo,
   },
-  role: "Homelessness and Continuum of Care Consulting",
+  role: "Public Sector and Homelessness Consulting",
   description: `
-We primarily provide technical assistance and consulting for organiztions working in homelessness. We provide governments, non-profits, and continuum's of care (COCs) with evidence based approaches to fight and end homelessness. 
+We primarily provide technical assistance and consulting for organizations working in homelessness. We provide governments, non-profits, and continuum's of care (COCs) with evidence-based approaches to fight and end homelessness. 
 <br/><br/>
-Public Impact Partners also provides research and technical document creation.`,
+Public Impact Partners can provide your organization with program design, HUD compliance, training seminars, and .`,
   socialLinks: socialLinks,
   links: [
     {
@@ -84,13 +84,13 @@ export const aboutPageContent: AboutPageContent = {
       `Full time student from Germany who loves building cool things using code.`,
     image: identity.logo,
   },
-  subtitle: "Some information about myself",
+  subtitle: "Chelsey Mandell, Consultant",
   about: {
     description: `
-I'm Tim Witzdam, a full time student from Germany who also loves building cool things using code.
+I'm Chelsey Mandell, a public policy professional who is passionate about ending homelessness. I began my career in direct service at Homeward Alliance in Fort Collins, Colorado. 
+After studying social policy at the Evans School at the University of Washington, I've served in federal and state government roles centered on housing, homelessness, and HUD compliance.
 <br/><br/>
-Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque placeat est architecto tempora voluptatem sit suscipit aspernatur? <br/><br/>
-Facere quibusdam reiciendis, distinctio sunt praesentium error accusantium consectetur nemo vero officia itaque.`, // Markdown is supported
+I bring twelve years of non-profit and governmental experience to organizations in the housing space. `, // Markdown is supported
     image_l: {
       url: "/demo-1.jpg",
       alt: "Left Picture",
@@ -101,25 +101,61 @@ Facere quibusdam reiciendis, distinctio sunt praesentium error accusantium conse
     },
   },
   work: {
-    description: `I've worked with a variety of technologies and tools to build cool things. Here are some of the projects I've worked on.`, // Markdown is supported
+    description: `I've been in a variety of roles working to end homelessness.`, // Markdown is supported
     items: [
       {
-        title: "Software Developer",
+        title: "Capacity-Building Contractor & Special Projects Manager",
         company: {
-          name: "Freelance",
-          image: "/logo.webp",
-          url: "https://github.com/TimWitzdam",
+          name: "Office of Homeless Initiatives",
+          image: "/dola-logo.webp",
+          url: "https://doh.colorado.gov",
         },
-        date: "2021 - Present",
+        date: "2023 - 2024",
       },
       {
-        title: "Software Developer",
+        title: "Program Manager",
         company: {
-          name: "Freelance",
-          image: "/logo.webp",
-          url: "https://github.com/TimWitzdam",
+          name: "Office of Homeless Initiatives",
+          image: "/dola-logo.webp",
+          url: "https://doh.colorado.gov",
         },
-        date: "2019 - 2021",
+        date: "2021 - 2023",
+      },
+      {
+        title: "Homeless Programs Specialist",
+        company: {
+          name: "Office of Homeless Initiatives",
+          image: "/dola-logo.webp",
+          url: "https://doh.colorado.gov",
+        },
+        date: "2020 - 2021",
+      },
+      {
+        title: "Community Planning & Development Representative",
+        company: {
+          name: "U.S. Department of Housing and Urban Development",
+          image: "/hud-logo.webp",
+          url: "https://www.hud.gov",
+        },
+        date: "2019 - 2020",
+      },
+      {
+        title: "Director of Development",
+        company: {
+          name: "Homeward Alliance",
+          image: "/hwa-logo.webp",
+          url: "https://www.homewardalliance.org",
+        },
+        date: "2014 - 2018",
+      },
+      {
+        title: "Employment Advocate",
+        company: {
+          name: "Homeward Alliance",
+          image: "/hwa-logo.webp",
+          url: "https://www.homewardalliance.org",
+        },
+        date: "2014",
       },
     ],
   },
