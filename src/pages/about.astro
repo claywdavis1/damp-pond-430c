@@ -9,6 +9,7 @@ import headshot from '../headshot_cropped.jpeg';
 
 const pageDescription = marked.parse(aboutPageContent.about.description)
 const workDescription = marked.parse(aboutPageContent.work.description)
+const educationDescription = marked.parse(aboutPageContent.education.description)
 const connectDescription = marked.parse(aboutPageContent.connect.description)
 ---
 
@@ -41,6 +42,19 @@ const connectDescription = marked.parse(aboutPageContent.connect.description)
       </div>
     </div>
   </section>
+
+  <section class="my-20 mt-32 max-w-2xl mx-auto px-6 sm:flex sm:gap-16">
+    <h2 class="mb-8 sm:mb-0 opacity-60">Education</h2>
+    <div>
+      <div class="mb-6">
+        <Fragment set:html={educationDescription} />
+      </div>
+      <div class="grid grid-cols-1 group">
+        {aboutPageContent.education.items.map((item) => <ResumeItem {...item} />)}
+      </div>
+    </div>
+  </section>
+
   <section class="mt-32 max-w-2xl mx-auto px-6 sm:flex sm:gap-16">
     <h2 class="mb-8 sm:mb-0 opacity-60">Connect</h2>
     <div>

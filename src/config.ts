@@ -159,6 +159,32 @@ I bring twelve years of non-profit and governmental experience to organizations 
       },
     ],
   },
+  
+  education: {
+    description: `I've been in a variety of roles working to end homelessness.`, // Markdown is supported
+    items: [
+      {
+        title: "Evans School of Public Policy & Governance, University of Washington",
+        company: {
+          name: "Master of Public Administration - Social Policy",
+          image: "/dola-logo.webp",
+          url: "https://doh.colorado.gov",
+        },
+        date: "2023 - 2024",
+      },
+      {
+        title: "Colorado Statue University",
+        company: {
+          name: "Bachelor of Arts - Social Work",
+          image: "/dola-logo.webp",
+          url: "https://doh.colorado.gov",
+        },
+        date: "2021 - 2023",
+      },
+      
+    ],
+  },
+
   connect: {
     description: `I'm always interested in meeting new people and learning new things. Feel free to connect with me on any of the following platforms.`, // Markdown is supported
     links: socialLinks,
