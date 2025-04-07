@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://damp-pond-430c.claydavis1995.workers.dev/sitemap.xml
